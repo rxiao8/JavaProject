@@ -1,0 +1,1 @@
+A basic tic tac toe game where the users can input their name and desired symbol to use (characters only). The score count is tracked and displayed after each round.
