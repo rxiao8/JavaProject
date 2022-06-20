@@ -1,0 +1,45 @@
+import java.time.LocalDate;
+public class Song{
+    private String name;
+    private String artist;
+    private String album;
+    private Genre genre;
+    private int year;
+
+    public String getName(){
+        return name;
+    }
+    public void setName(String n){
+        name = n;
+    }
+      public String getArtist(){
+        return artist;
+    }
+    public void setArtist(String a){
+        artist = a;
+    }
+      public String getAlbum(){
+        return album;
+    }
+    public void setAlbum(String a){
+        album = a;
+    }
+    
+         public String getGenre(){
+        return genre;
+    }
+    public void setGenre(Genre g){
+        genre = g;
+    }
+         public int getYear(){
+        return year;
+    }
+    public void setYear(int y){
+          int current_Year = current_date.getYear();
+        if(y < 1800 || y > current_Year){
+            throw new IllegalArgumentException("Invalid released year.");
+        }
+        year = y;
+    }
+    
+}
