@@ -1,9 +1,13 @@
 import java.time.LocalDate;
+
+enum Genre{
+INDIE, ROCK, POP, LOFI, R&B
+}
 public class Song{
     private String name;
     private String artist;
     private String album;
-    private Genre genre;
+    private final Genre genre;
     private int year;
 
     public String getName(){
