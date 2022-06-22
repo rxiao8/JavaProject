@@ -1,0 +1,27 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>10</x><y>10</y><w>210</w><h>190</h></coordinates><panel_attributes>Song
+Package::Data
+--
+-Genre: enum
+-name: String
+-artist: String
+-album: String
+-genre: Genre
+-year: int
+--
++getters and setters
++</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>290</x><y>10</y><w>210</w><h>190</h></coordinates><panel_attributes>User
+Package::Data
+--
+-id: String
+-favorites: ArrayList
+-numSongs: int
+--
++getters and setters
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>570</x><y>10</y><w>210</w><h>190</h></coordinates><panel_attributes>Database
+Package::Database
+--
+-data: Map&lt;Song, Artist&gt;
+-curr: User
+--
++getters and setters
+</panel_attributes><additional_attributes></additional_attributes></element></diagram>
